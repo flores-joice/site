@@ -21,6 +21,7 @@ p {
 .container {
 	width: 85%;
 	margin: 0 auto;
+}
 
 .home-menu {
 	background-color: #004D54;
@@ -242,7 +243,7 @@ div.projeto div.descricao {
 
 div.projeto div.descricao h3 {
 	margin-bottom: 1%;
-	padding: 0 10%;
+	padding: 3% 10%;
 }
 
 div.projeto div.descricao p {
@@ -1019,7 +1020,7 @@ a.pure-button-primary {
 	/* These styles are required for the "scroll-over" effect */
 	position: absolute;
 	top: 87%;
-	margin-top:  5.5em;
+	margin-top: 1.5em;
 	padding-top: 2%;
 	width: 100%;
 	min-height: 12%;
