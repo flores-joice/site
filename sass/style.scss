@@ -11,14 +11,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat Alternates";
 }
 
-p {
+p, strong {
     font-family: "Montserrat";
+    font-size: 1.5rem;
 }
 
 .container {
 	width: 85%;
 	margin: 0 auto;
 }
+
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+}    
 
 // NAV
 
@@ -100,3 +110,39 @@ div#coolab-video {
     }
 }
 
+// PROJETOS POST
+
+div#coolab-post {
+
+    margin-top: 90px;
+
+    div.coolab-post-projetos{
+
+        .titulo-post{
+            margin-top: 45px;
+        }
+
+        .local-projetos{
+            font-weight: 700;
+        }
+
+        .projeto-descricao {
+            margin-bottom: 50px;
+        }
+
+        div.projeto-info {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            margin-bottom: 50px;
+
+            p {
+                border-bottom: 1px solid #fef;
+                color: #000;
+            }
+
+            .strong-projeto {
+                margin-left: 10px;
+            }
+        }
+    }
+}
