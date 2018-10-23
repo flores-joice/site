@@ -190,6 +190,7 @@ div#coolab-projetos {
 }
 
 div#coolab-projetos h2:first-child {
+	padding-top: 2%;
 	text-align: left;
 	margin: 0;
 	margin-left: 15px;
@@ -197,26 +198,28 @@ div#coolab-projetos h2:first-child {
 
 div.projeto {
 	width: 100%;
-	height: 20em;
-	background: #e6eaf4;
+	height: auto;
+	/* background: #e6eaf4; */
 	margin-bottom: 25px;
 }
 
 div.projeto div.descricao {
-	height: 50%;
+	height: 40%;
 	position: relative;
-	top: 60%;
+	top: -2px;
 	width: 100%;
 	background-color: #003E44;
-	padding: 10px;
+	padding: 1px;
 }
 
 div.projeto div.descricao h3 {
-	margin-bottom: 30px;
+	margin-bottom: 1%;
+	padding: 0 10%;
 }
 
 div.projeto div.descricao p {
 	margin: 0;
+	padding-bottom: 6%;
 }
 
 div.trabalho div.descricao {
@@ -252,12 +255,13 @@ div#coolab-noticias {
 div#coolab-noticias h2:first-child {
 	text-align: left;
 	margin: 0 0 0 15px;
+	padding: 1% 0;
 }
 
 div#coolab-noticias div.noticia {
 	width: 100%;
 	background: #e6eaf4;
-	height: 29em;
+	height: 37em;
 }
 
 div#coolab-noticias div.noticia img {
@@ -270,11 +274,12 @@ div#coolab-noticias div.noticia h3 {
 
 div#coolab-noticias div.noticia p.data-noticia {
 	font-weight: bold;
-	color: #3e444f
+	color: #3e444f;
 }
 
 div#coolab-noticias div.noticia div.descricao {
-	padding: 10px;
+	padding: 2% 5% 2% 5%;
+	/* height: 29em; */
 }
 
 div#coolab-info {
@@ -982,6 +987,8 @@ a.pure-button-primary {
 	/* These styles are required for the "scroll-over" effect */
 	position: absolute;
 	top: 87%;
+	margin-top:  5.5em;
+	padding-top: 2%;
 	width: 100%;
 	min-height: 12%;
 	z-index: 2;
