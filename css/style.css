@@ -20,6 +20,19 @@ p, strong {
   margin: 0 auto;
 }
 
+.content {
+  padding: 1em 1em 3em;
+}
+
+.content .content-head {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.content .content-subhead {
+  color: #1f8dd6;
+}
+
 .content-wrapper {
   position: absolute;
   top: 87%;
@@ -27,6 +40,10 @@ p, strong {
   min-height: 12%;
   z-index: 2;
   background: white;
+}
+
+.is-center {
+  text-align: center;
 }
 
 div.menu {
@@ -106,6 +123,46 @@ div#coolab-video div#legenda a.pure-button {
   font-weight: 500;
   font-size: 1.2rem;
   color: #FFF;
+}
+
+div#coolab-projetos {
+  padding-right: 122px;
+  padding-top: 0;
+  padding-left: 10%;
+  margin-top: 90px;
+  border-top: 1px solid black;
+}
+
+div#coolab-projetos h1 {
+  text-align: left;
+  margin: 0;
+  margin-left: 15px;
+}
+
+div#coolab-projetos div.projeto {
+  width: 100%;
+  height: 20em;
+  background: #e6eaf4;
+  margin-bottom: 25px;
+}
+
+div#coolab-projetos div.projeto div.descricao {
+  height: 50%;
+  position: relative;
+  top: 60%;
+  width: 100%;
+  background-color: #003E44;
+  padding: 10px;
+  text-align: left;
+  color: #23293b;
+}
+
+div#coolab-projetos div.projeto div.descricao h3 {
+  margin-bottom: 30px;
+}
+
+div#coolab-projetos div.projeto div.descricao p {
+  margin: 0;
 }
 
 div#coolab-post {

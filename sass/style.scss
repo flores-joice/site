@@ -21,6 +21,18 @@ p, strong {
 	margin: 0 auto;
 }
 
+.content {
+    padding: 1em 1em 3em;
+
+        .content-head {
+            text-align: left;
+            font-size: 2.5rem;
+        }
+        .content-subhead {
+            color: #1f8dd6;
+        }
+    }
+
 .content-wrapper {
     position: absolute;
     top: 87%;
@@ -28,9 +40,15 @@ p, strong {
     min-height: 12%;
     z-index: 2;
     background: white;
-}    
+}   
 
-// NAV
+.is-center {
+	text-align: center;
+}
+
+// FIM DAS CLASSES USADAS EM TODAS AS PAGINAS
+
+// MENU DE NAVEGAÇÃO
 
 div.menu {
 	width: 100%;
@@ -68,6 +86,8 @@ div.menu {
     }
 }
 
+// FIM DO MENU DE NAVEGAÇÃO
+
 // NAV HOME
 
 div.menu-home {
@@ -75,8 +95,10 @@ div.menu-home {
     position: absolute;
 }
 
+// FIM DO MENU DA PAGINA INICIAL
 
-// BANNER VERDE
+
+// BANNER VERDE PAGINA INICIAL
 
 div#coolab-video {
 	position: relative;
@@ -110,7 +132,51 @@ div#coolab-video {
     }
 }
 
-// PROJETOS POST
+// FIM DO BANNER VERDE
+
+// PROJETOS
+
+div#coolab-projetos {
+	padding-right: 122px;
+	padding-top: 0;
+	padding-left: 10%;
+	margin-top: 90px;
+    border-top: 1px solid black;
+
+    h1 {
+		text-align: left;
+		margin: 0;
+		margin-left: 15px;
+	}
+
+    div.projeto {
+        width: 100%;
+        height: 20em;
+        background: #e6eaf4;
+        margin-bottom: 25px;
+    
+        div.descricao {
+            height: 50%;
+            position: relative;
+            top: 60%;
+            width: 100%;
+            background-color: #003E44;
+            padding: 10px;
+            text-align: left;
+            color: #23293b;
+            h3 {
+                margin-bottom: 30px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+// FIM DA PAGINA PROJETOS 
+
+// PROJETOS POST - MAPA E GALERIA
 
 div#coolab-post {
 
@@ -146,3 +212,5 @@ div#coolab-post {
         }
     }
 }
+
+// FIM DA PAGINA PROJETOS POST
