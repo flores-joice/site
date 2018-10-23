@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat Alternates";
+}
+
+p {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+div.menu {
+  width: 100%;
+  position: fixed;
+  z-index: 2000;
+  height: 90px;
+  background-color: #1c2838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.menu .pure-menu .pure-menu-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+div.menu .pure-menu .pure-menu-heading .custom-brand {
+  padding: 0;
+}
+
+div.menu .pure-menu .pure-menu-heading img {
+  width: 60%;
+}
+
+div.menu .pure-menu-horizontal .pure-menu-list .pure-menu-link {
+  color: #FFF;
+  font-size: 1.1rem;
+  font-family: "Montserrat Alternates";
+  font-weight: bold;
+}
+
+div.menu {
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
