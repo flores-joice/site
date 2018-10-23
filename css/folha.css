@@ -4,8 +4,14 @@
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Montserrat Alternates";
+@font-face {
+	font-family: Montserrat_Alternates;
+	src: url('../fonts/montserrat_alternates/MontserratAlternates-ExtraBold.ttf');
+}	
+
+@font-face {
+	font-family: Montserrat;
+	src: url('../fonts/montserrat/Mo')
 }
 
 p {
@@ -52,6 +58,15 @@ div#menu {
 	position: fixed;
 	z-index: 2000;
 	background-color: rgb(28, 40, 56);
+	height: 5.5em;
+	align-items: center;
+}
+
+div#menu-home {
+	width: 100%;
+	position: absolute;
+	z-index: 2000;
+	background-color: transparent;
 	height: 5.5em;
 	align-items: center;
 }
