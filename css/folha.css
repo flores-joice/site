@@ -231,6 +231,7 @@ div.projeto {
 .strong-projeto{
 	margin-left: 10px;
 }
+
 div.projeto div.descricao {
 	height: 40%;
 	position: relative;
@@ -405,7 +406,10 @@ div#coolab-post div.projeto-info p {
 	color: #000;
 }
 .coolab-post-projetos{
-	margin: 16px;
+	margin-top: 51px;
+}
+.titulo-post{
+	margin-top: 45px;
 }
 
 div#coolab-post div.projeto-info p:last-child {
