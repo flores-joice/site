@@ -61,7 +61,40 @@ div.menu .pure-menu-horizontal .pure-menu-list .pure-menu-link {
   font-weight: bold;
 }
 
-div.menu {
-  background-color: transparent;
+div.menu-home {
+  background-color: lightblue;
+  position: absolute;
+}
+
+div#coolab-video {
+  position: relative;
+  height: 75vh;
+  background: #00bc9b;
+}
+
+div#coolab-video div#legenda {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 100px;
+}
+
+div#coolab-video div#legenda p {
+  font-size: 2.7rem;
+  color: #2c2c2c;
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+}
+
+div#coolab-video div#legenda a.pure-button {
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  background-color: #f9005b;
+  padding: 8px 20px;
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #FFF;
 }
 /*# sourceMappingURL=style.css.map */

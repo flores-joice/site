@@ -60,7 +60,43 @@ div.menu {
 
 // NAV HOME
 
-div.menu {
-    background-color: transparent;
+div.menu-home {
+    background-color: lightblue;
+    position: absolute;
+}
+
+
+// BANNER VERDE
+
+div#coolab-video {
+	position: relative;
+	height: 75vh;
+    background: #00bc9b;
+
+    div#legenda {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0 100px;
+
+        p {
+            font-size: 2.7rem;
+            color: rgb(44, 44, 44);
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+        }
+
+        a.pure-button {
+            margin-top: 20px;
+            border-radius: 25px;
+            margin-bottom: 40px;
+            background-color: #f9005b;
+            padding: 8px 20px;
+            font-family: "Montserrat Alternates";
+            font-weight: 500;
+            font-size: 1.2rem;
+            color: #FFF;
+        }
+    }
 }
 
